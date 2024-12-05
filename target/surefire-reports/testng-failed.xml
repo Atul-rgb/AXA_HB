@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [hbAxaTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="tc_row" value="10"/>
+  <parameter name="test_name" value="TC_Dashboard"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.hbaxa.utilities.Reporting"/>
+    <listener class-name="com.hbaxa.utilities.RetryListenerClass"/>
+  </listeners>
+  <test name="TC_PA_Aprrove">
+    <parameter name="tc_row" value="10"/>
+    <parameter name="test_name" value="TC_PA_Aprrove"/>
+    <parameter name="Browser" value="chrome"/>
+  </test> <!-- TC_PA_Aprrove -->
+  <test name="TC_PA_Reject">
+    <parameter name="tc_row" value="13"/>
+    <parameter name="test_name" value="TC_PA_Reject"/>
+    <parameter name="Browser" value="chrome"/>
+  </test> <!-- TC_PA_Reject -->
+  <test name="TC_PA_Chopping">
+    <parameter name="tc_row" value="15"/>
+    <parameter name="test_name" value="TC_PA_Chopping"/>
+    <parameter name="Browser" value="chrome"/>
+  </test> <!-- TC_PA_Chopping -->
+  <test name="TC_PA_Cancel">
+    <parameter name="tc_row" value="16"/>
+    <parameter name="test_name" value="TC_PA_Cancel"/>
+    <parameter name="Browser" value="chrome"/>
+  </test> <!-- TC_PA_Cancel -->
+  <test name="TC_PA_Withdraw">
+    <parameter name="tc_row" value="17"/>
+    <parameter name="test_name" value="TC_PA_Withdraw"/>
+    <parameter name="Browser" value="chrome"/>
+  </test> <!-- TC_PA_Withdraw -->
+  <test name="TC_PA_Delete">
+    <parameter name="tc_row" value="26"/>
+    <parameter name="test_name" value="TC_PA_Delete"/>
+    <parameter name="Browser" value="chrome"/>
+  </test> <!-- TC_PA_Delete -->
+  <test name="TC_PA_List_Pre_Approval_View">
+    <parameter name="tc_row" value="10"/>
+    <parameter name="test_name" value="TC_PA_List_Pre_Approval_View"/>
+    <parameter name="Browser" value="edge"/>
+  </test> <!-- TC_PA_List_Pre_Approval_View -->
+  <test name="TC_Dashboard">
+    <parameter name="tc_row" value="10"/>
+    <parameter name="test_name" value="TC_Dashboard"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.hbaxa.testcases.TC_PA_List_newTC">
+        <methods>
+          <include name="dashboard_tc"/>
+        </methods>
+      </class> <!-- com.hbaxa.testcases.TC_PA_List_newTC -->
+    </classes>
+  </test> <!-- TC_Dashboard -->
+</suite> <!-- Failed suite [hbAxaTest] -->

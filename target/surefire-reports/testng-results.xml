@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-05T17:36:11Z" name="hbAxaTest" finished-at="2024-12-05T17:36:28Z" duration-ms="17312">
+    <groups>
+    </groups>
+    <test started-at="2024-12-05T17:36:11Z" name="TC_PA_Aprrove" finished-at="2024-12-05T17:36:11Z" duration-ms="180">
+    </test> <!-- TC_PA_Aprrove -->
+    <test started-at="2024-12-05T17:36:11Z" name="TC_PA_Reject" finished-at="2024-12-05T17:36:11Z" duration-ms="5">
+    </test> <!-- TC_PA_Reject -->
+    <test started-at="2024-12-05T17:36:11Z" name="TC_PA_Chopping" finished-at="2024-12-05T17:36:11Z" duration-ms="5">
+    </test> <!-- TC_PA_Chopping -->
+    <test started-at="2024-12-05T17:36:11Z" name="TC_PA_Cancel" finished-at="2024-12-05T17:36:11Z" duration-ms="4">
+    </test> <!-- TC_PA_Cancel -->
+    <test started-at="2024-12-05T17:36:11Z" name="TC_PA_Withdraw" finished-at="2024-12-05T17:36:11Z" duration-ms="4">
+    </test> <!-- TC_PA_Withdraw -->
+    <test started-at="2024-12-05T17:36:11Z" name="TC_PA_Delete" finished-at="2024-12-05T17:36:11Z" duration-ms="6">
+    </test> <!-- TC_PA_Delete -->
+    <test started-at="2024-12-05T17:36:11Z" name="TC_PA_List_Pre_Approval_View" finished-at="2024-12-05T17:36:11Z" duration-ms="9">
+    </test> <!-- TC_PA_List_Pre_Approval_View -->
+    <test started-at="2024-12-05T17:36:11Z" name="TC_Dashboard" finished-at="2024-12-05T17:36:28Z" duration-ms="17029">
+      <class name="com.hbaxa.testcases.TC_PA_List_newTC">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.hbaxa.testcases.TC_PA_List_newTC@1460a8c0]" started-at="2024-12-05T23:06:11Z" name="setup" finished-at="2024-12-05T23:06:14Z" duration-ms="2813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC_Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="pom_object(java.lang.String)[pri:0, instance:com.hbaxa.testcases.TC_PA_List_newTC@1460a8c0]" started-at="2024-12-05T23:06:14Z" name="pom_object" finished-at="2024-12-05T23:06:22Z" duration-ms="7535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pom_object -->
+        <test-method signature="dashboard_tc(java.lang.String)[pri:2, instance:com.hbaxa.testcases.TC_PA_List_newTC@1460a8c0]" started-at="2024-12-05T23:06:22Z" name="dashboard_tc" finished-at="2024-12-05T23:06:25Z" duration-ms="3617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard_tc -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.hbaxa.testcases.TC_PA_List_newTC@1460a8c0]" started-at="2024-12-05T23:06:25Z" name="quitBrowser" finished-at="2024-12-05T23:06:28Z" duration-ms="3013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.hbaxa.testcases.TC_PA_List_newTC -->
+    </test> <!-- TC_Dashboard -->
+  </suite> <!-- hbAxaTest -->
+</testng-results>
